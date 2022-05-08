@@ -19,4 +19,6 @@ public class School
         Teachers = teachers;
         Students = students;
     }
+
+    public override string ToString() => $"{City}, #{Number}";
 }
